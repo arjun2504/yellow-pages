@@ -1,0 +1,54 @@
+body {
+	background-color: #FFFDF8;
+}
+a.list-group-item:hover, a.list-group-item:focus {
+	background-color: #FFCE54;
+}
+header {
+	width: 100%;
+	height: 150px;
+}
+.breadcrumb-arrow li a {
+	background-color: #FFCE54;
+	border: 1px solid #FFCE54;
+}
+.breadcrumb-arrow li a:hover {
+	background-color: #F6BB42;
+	border: 1px solid #F6BB42;
+}
+.breadcrumb-arrow li a:hover::before {
+	border-left-color: #F6BB42;
+}
+.breadcrumb-arrow li a:hover::after {
+	border-left: 11px solid #F6BB42;
+}
+.breadcrumb-arrow li a::before {
+	border-left-color: #FFCE54;
+}
+.breadcrumb-arrow li a::after {
+	border-left: 11px solid #F6BB42;
+}
+.tab-content {
+	min-height: auto;
+}
+/*.nav-tabs a {
+	line-height: 2em;
+	width: 20px;
+}*/
+.nav-tabs a:hover {
+	/*line-height: 2em;*/
+	background-color: #fff;
+}
+.nav-tabs .active {
+	background-color: #fff;
+}
+.panel .list-group-item:first-child {
+	border-top-color: #fff;
+}
+.custi .list-group-item {
+	width: 80%;
+	border-color: #fff;
+}
+.navbar {
+	border-radius: 0px;
+}
